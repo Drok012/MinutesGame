@@ -29,20 +29,21 @@
 
 <button type="submit" name="button">Add</button> <br>
 
-<p>אבי -
-   , בוכניק -
-   , חדרי -
-   , כפיר -
-   , מוטי -
-   , לרנר -
-   , עידן -
-   , פבל -
-   , קורמן -
-   , רון -
-   , שי -
-   , שרפהרץ - ,
-    תמיר - 
-  </p>
+<div class="container">
+  <div class="user אבי">אבי</div>
+  <div class="user">בוכניק</div>
+  <div class="user">חדרי</div>
+  <div class="user">כפיר</div>
+  <div class="user">מוטי</div>
+  <div class="user">לרנר</div>
+  <div class="user">עידן</div>
+  <div class="user">פבל</div>
+  <div class="user">קורמן</div>
+  <div class="user">רון</div>
+  <div class="user">שי</div>
+  <div class="user">שרפהרץ</div>
+  <div class="user">תמיר</div>
+</div>
 
 </form> <br>
 <!--
@@ -84,7 +85,7 @@
       <div class="Minute">
 
         <% if (actualMinute == bet.minuteBet) { %>
-      <p> <%= bet.name %> </p>
+      <p <%=> bet.name %> </p>
       <% } %>
       <% }) %>
 
